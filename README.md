@@ -11,7 +11,8 @@ Please see [Pi Pico Time-of-Flight Project in Arduino IDE](https://techissocool.
 The VL53L1X sensor module and SSD1306 display are connected via I2C. A momentary pushbutton on one GPIO pin cycles through the display modes. See link above and code for more specific description.
 
 ## External Software Libraries Used
-- Wire.h – to handle the I2C communications
-- Adafruit VL53L1X – for the time-of-flight sensor
-- Adafruit GFX – Display core graphics library
-- Adafruit SSD1306 – Or other library to support your display driver
+- arduino-pico - RP2040 board support for Arduino IDE [GitHub](https://github.com/earlephilhower/arduino-pico/)
+- Wire.h – to handle the I2C communications (native to Arduino IDE)
+- Adafruit VL53L1X – for the time-of-flight sensor [GitHub](https://github.com/adafruit/Adafruit_VL53L1X)
+- Adafruit GFX Library – Display core graphics library [GitHub](https://github.com/adafruit/Adafruit-GFX-Library)
+- Adafruit SSD1306 – Or other library to support your display driver [GitHub](https://github.com/adafruit/Adafruit_SSD1306)
