@@ -1,0 +1,27 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: PicoTOF
+message: >-
+  If you republish this software, please cite it
+  using the metadata from this file.
+type: software
+authors:
+  - given-names: TechIsSoCool.com
+    email: techie@techissocool.com
+repository-code: 'https://github.com/TechIsSoCool/PicoTOF'
+url: 'https://techissocool.com/pi-pico-tof-arduino'
+abstract: >-
+  This project uses a Raspberry Pi Pico to interface
+  with the VL53L1X laser-based time-of-flight sensor.
+  It displays the sensor's measurements on a small
+  OLED display using an SSD1306 controller. It is
+  written for the Arduino IDE.
+keywords:
+  - Raspberry Pi Pico
+  - Adafruit VL53L1X
+  - SSD1306 OLED
+license: MIT
+version: '1.0'
+date-released: '2022-07-15'
